@@ -179,18 +179,8 @@ def toogoodtogo():
     # sys.exit("Program zakończony z powodu błędu.")
     parsed_api = parse_tgtg_api(api_response)
 
-    allowShop = ['Kawiarnia Moja', 'Vamos Salvador', 'Vamos Salvador ', 'Manufaktura Drożdży', 'Manufaktura Drożdży ', 'Bistro Kwadrans', 'Viking Point', 'Decathlon ', 'Fit Cake ', 'Piekarnia Gruzińska Ketili Puri Olsztyn ', 'bp - Kormoran', 'bp - Kormoran ']    
-    # 'Fit Cake ',
-    # 'House Cafe Olsztyn',
-    # 'Costa Coffee Centrum Aura', 
-    # 'Costa Coffee Galeria Warmińska',
-    # 'Piekarnia Tyrolska',
-    # 'bp - Kormoran',
-    # 'Grycan',
-    # 'Olsztyniak Bar Mleczny',
-    # 'Piekarnia Gruzińska Ketili Puri Olsztyn', 
-    # 'Circle K'
-
+    allowShop = []
+    
     tabSaveToJson = []
 
     # Go through all favourite items and compare the stock
